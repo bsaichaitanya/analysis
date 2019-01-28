@@ -19,5 +19,6 @@ from sma import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('graphs/',views.graphview)
+    path('graphs/',views.graphview),
+    path('home/',views.home),
 ]
